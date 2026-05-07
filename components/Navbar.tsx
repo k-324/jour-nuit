@@ -37,11 +37,26 @@ export default function Navbar() {
         </nav>
 
         {/* Mobile button */}
-        <button
+       <button
           onClick={() => setOpen(!open)}
-          className="md:hidden font-en text-sm tracking-[0.25em] text-black"
+          className="md:hidden flex flex-col justify-center items-center gap-[5px] w-10 h-10"
+          aria-label="Open menu"
         >
-          MENU
+          <span
+            className={`block h-[1.5px] w-6 bg-black transition duration-300 ${
+              open ? "translate-y-[6px] rotate-45" : ""
+            }`}
+          />
+          <span
+            className={`block h-[1.5px] w-6 bg-black transition duration-300 ${
+              open ? "opacity-0" : ""
+            }`}
+          />
+          <span
+            className={`block h-[1.5px] w-6 bg-black transition duration-300 ${
+              open ? "-translate-y-[6px] -rotate-45" : ""
+            }`}
+          />
         </button>
       </div>
 
