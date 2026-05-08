@@ -43,7 +43,7 @@ export default function Home() {
           </p>
 
           <h2 className="mt-5 font-zh-title text-3xl tracking-[0.08em] text-black md:text-4xl">
-            為你保留一個位置
+            在日與夜之間，留一段剛剛好的時間。
           </h2>
 
           <p className="mx-auto mt-5 max-w-xl font-zh text-base leading-8 text-black/60">
@@ -65,14 +65,14 @@ export default function Home() {
             </a>
 
             <a
-              href="tel:+886223418681"
-              className="border border-black/20 px-8 py-3 font-zh text-sm tracking-[0.08em] text-black transition hover:border-[#6F0000] hover:text-[#6F0000]"
-            >
-              來電預約
-              <span className="ml-2 font-en text-[10px] tracking-[0.12em] text-black/45">
-                Call to Reserve
-              </span>
-            </a>
+                href="/visit#private-events"
+                className="border border-black/20 px-8 py-3 font-zh text-sm tracking-[0.08em] text-black transition hover:border-[#6F0000] hover:text-[#6F0000]"
+              >
+                包場資訊
+                <span className="ml-2 font-en text-[10px] tracking-[0.12em] text-black/45">
+                  Private Events
+                </span>
+              </a>
           </div>
         </div>
       </section>

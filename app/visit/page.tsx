@@ -282,7 +282,10 @@ export default function VisitPage() {
       </div>
 
         {/* Private Events 包場 */}
-      <div className="bg-[#FFFBF2] py-20 md:py-28 border-t border-black/10">
+      <section
+      id="private-events"
+      className="bg-[#FFFBF2] py-20 md:py-28 border-t border-black/10"
+    >
         <div className="max-w-7xl mx-auto px-6 md:px-12">
           <div className="grid md:grid-cols-2 gap-12 items-center">
 
@@ -373,9 +376,9 @@ export default function VisitPage() {
               />
             </div>
 
-          </div>
         </div>
       </div>
+    </section>
     </div>
 
     
