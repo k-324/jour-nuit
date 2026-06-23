@@ -68,9 +68,9 @@ export default function Footer() {
 
             {/* 時間 */}
             <li>
-              每日 07:00 – 22:00（週一至 18:30）
+              每日 07:00 – 22:00
               <span className="block text-xs text-black/50">
-                Open daily 07:00 – 22:00 (Mon until 18:30)
+                Open daily 07:00 – 22:00 
               </span>
             </li>
 

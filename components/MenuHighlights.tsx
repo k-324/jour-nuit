@@ -20,9 +20,9 @@ export default function MenuHighlights() {
       ],
     },
     {
-      titleZh: "午餐",
-      titleEn: "Lunch",
-      time: "10:30 – 18:00",
+      titleZh: "全日餐點",
+      titleEn: "All-Day Menu",
+      time: "10:30 – 22:00 (餐點最後供應至20:00，飲品供應至22:00)",
       href: "/menu#lunch",
       items: [
         { zh: "肉醬義大利麵", en: "Bolognese", price: "NT$135", desc: "經典紅醬風味" },
@@ -33,34 +33,8 @@ export default function MenuHighlights() {
         { zh: "黑芝麻牛奶", en: "Sesame Milk", price: "NT$55", desc: "冰熱皆可" },
       ],
     },
-    {
-      titleZh: "晚餐",
-      titleEn: "Dinner",
-      time: "18:00 – 22:00",
-      href: "/menu#dinner",
-      items: [
-        { zh: "厚片吐司", en: "Toast", price: "NT$70", desc: "多種抹醬選擇" },
-        { zh: "墨西哥玉米脆片", en: "Nachos", price: "NT$80", desc: "相聚分享首選" },
-        { zh: "綜合堅果", en: "Mixed Nuts", price: "NT$100", desc: "佐酒小食" },
-        { zh: "當日蛋糕", en: "Daily Cake", price: "NT$120", desc: "依供應情形調整" },
-        { zh: "水餃", en: "Dumplings", price: "NT$150", desc: "暖心主食" },
-        { zh: "威士忌可樂", en: "Whisky Coke", price: "NT$320", desc: "經典調酒" },
-      ],
-    },
-    {
-      titleZh: "深夜咖啡",
-      titleEn: "Late Night",
-      time: "22:00 – 02:00",
-      href: "/menu#late-night",
-      items: [
-        { zh: "衣索比亞手沖", en: "Ethiopia", price: "NT$180", desc: "冰/熱" },
-        { zh: "哥倫比亞手沖", en: "Colombia", price: "NT$180", desc: "風味平衡" },
-        { zh: "柚子康普茶", en: "Yuzu Kombucha", price: "NT$160", desc: "清爽氣泡" },
-        { zh: "桂花烏龍", en: "Oolong Tea", price: "NT$180", desc: "熱飲" },
-        { zh: "巧克力牛奶", en: "Chocolate Milk", price: "NT$170", desc: "濃郁甜香" },
-        { zh: "黑糖牛奶", en: "Brown Sugar Milk", price: "NT$170", desc: "經典風味" },
-      ],
-    },
+    
+    
   ];
 
   return (

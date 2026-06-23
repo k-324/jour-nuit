@@ -30,7 +30,7 @@ export default function LocationPreview() {
                   Hours
                 </p>
                 <p className="font-body text-sm text-noir/70">
-                  Every day — 07:00 to 02:00
+                  Every day — 07:00 to 22:00
                 </p>
               </div>
 
