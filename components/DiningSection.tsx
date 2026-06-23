@@ -19,12 +19,7 @@ const modes = [
     description:
       "The mood shifts. Cocktails, small plates, conversation that lingers.",
   },
-  {
-    time: "00:00",
-    label: "Late Night",
-    description:
-      "Still open. Still warm. A place for those who aren't ready to leave.",
-  },
+ 
 ];
 
 export default function DiningSection() {
