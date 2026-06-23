@@ -12,9 +12,9 @@ export default function Footer() {
           />
 
           <p className="text-sm text-black/70 leading-relaxed">
-            從早晨到深夜的溫暖餐飲空間
+            從早晨到夜晚的溫暖餐飲空間
             <span className="block text-xs uppercase tracking-[0.12em] text-black/50 mt-1">
-              A warm dining space from morning to late night
+              A warm dining space from morning to night
             </span>
           </p>
         </div>
@@ -68,9 +68,9 @@ export default function Footer() {
 
             {/* 時間 */}
             <li>
-              每日 07:00 – 凌晨 02:00（週一至 18:30）
+              每日 07:00 – 22:00（週一至 18:30）
               <span className="block text-xs text-black/50">
-                Open daily 07:00 – 02:00 (Mon until 18:30)
+                Open daily 07:00 – 22:00 (Mon until 18:30)
               </span>
             </li>
 

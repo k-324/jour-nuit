@@ -3,12 +3,12 @@ import SectionLabel from "@/components/SectionLabel";
 
 export const metadata: Metadata = {
   title: "Visit — JOUR&NUIT",
-  description: "Find JOUR&NUIT in Da'an District, Taipei. Open daily 07:00 – 02:00.",
+  description: "Find JOUR&NUIT in Da'an District, Taipei. Open daily 07:00 – 22:00.",
 };
 
 const hours = [
   { dayZh: "週一", dayEn: "Monday", time: "07:00 – 18:30" },
-  { dayZh: "週二至週五", dayEn: "Tuesday – Friday", time: "07:00 – 02:00" },
+  { dayZh: "週二至週五", dayEn: "Tuesday – Friday", time: "07:00 – 22:00" },
 ];
 
 const transport = [
