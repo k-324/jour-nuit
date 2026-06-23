@@ -38,20 +38,6 @@ const menuSections = [
       "/menu/dinnermenu5.jpg",
     ],
   },
-
-
-
-
-  {
-    titleZh: "深夜咖啡",
-    titleEn: "Late Night",
-    images: [
-      "/menu/nightmenu1.jpg",
-      "/menu/nightmenu2.jpg",
-      "/menu/nightmenu3.jpg",
-      "/menu/nightmenu4.jpg",
-    ],
-  },
 ];
 
 export default function MenuPage() {
