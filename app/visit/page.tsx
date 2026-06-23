@@ -7,8 +7,15 @@ export const metadata: Metadata = {
 };
 
 const hours = [
-  { dayZh: "週一", dayEn: "Monday", time: "07:00 – 18:30" },
-  { dayZh: "週二至週五", dayEn: "Tuesday – Friday", time: "07:00 – 22:00" },
+  {
+    dayZh: "週一至週五",
+    dayEn: "Monday – Friday",
+    time: "07:00 – 22:00",
+    note: [
+      "早餐時段 07:00－10:00（供餐至 09:30）",
+      "全日餐點 10:00－22:00（供餐至 20:00，飲品供應至 22:00）",
+    ],
+  },
 ];
 
 const transport = [
