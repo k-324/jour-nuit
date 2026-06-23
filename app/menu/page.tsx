@@ -14,8 +14,8 @@ const menuSections = [
     ],
   },
   {
-    titleZh: "午餐",
-    titleEn: "Lunch",
+    titleZh: "全日餐點",
+    titleEn: "All-Day Menu",
     images: [
       "/menu/lunchmenu1.jpg",
       "/menu/lunchmenu2.jpg",
@@ -26,18 +26,7 @@ const menuSections = [
       "/menu/lunchmenu6.jpg",
     ],
   },
-  {
-    titleZh: "晚餐",
-    titleEn: "Dinner",
-
-    images: [
-      "/menu/dinnermenu1.jpg",
-      "/menu/dinnermenu2.jpg",
-      "/menu/dinnermenu3.jpg",
-      "/menu/dinnermenu4.jpg",
-      "/menu/dinnermenu5.jpg",
-    ],
-  },
+  
 ];
 
 export default function MenuPage() {
