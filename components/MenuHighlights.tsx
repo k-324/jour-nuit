@@ -8,7 +8,7 @@ export default function MenuHighlights() {
   {
     titleZh: "早餐",
     titleEn: "Breakfast",
-    time: "07:00 – 10:00（供餐至 09:30）",
+    time: "07:00 – 11:00",
     href: "/menu#breakfast",
     items: [
       { zh: "厚吐司套餐", en: "Toast Set", price: "NT$100", desc: "11:00 前點飲品即贈厚吐司套餐" },
