@@ -9,8 +9,6 @@ const menuSections = [
     images: [
       "/menu/bfmenu1.jpg",
       "/menu/bfmenu2.jpg",
-      "/menu/bfmenu3.jpg",
-      "/menu/bfmenu4.jpg",
     ],
   },
   {
@@ -22,8 +20,11 @@ const menuSections = [
       "/menu/lunchmenu3.jpg",
       "/menu/lunchmenu4.jpg",
       "/menu/lunchmenu5.jpg",
-      "/menu/lunchdrinkmenu.jpg",
       "/menu/lunchmenu6.jpg",
+      "/menu/lunchmenu7.jpg",
+      "/menu/lunchmenu8.jpg",
+      "/menu/lunchmenu9.jpg",
+      "/menu/lunchmenu10.jpg",
     ],
   },
   
