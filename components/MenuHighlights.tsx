@@ -5,37 +5,35 @@ import { motion } from "framer-motion";
 
 export default function MenuHighlights() {
   const sections = [
-    {
-      titleZh: "早餐",
-      titleEn: "Breakfast",
-      time: "07:00 – 10:30",
-      href: "/menu#breakfast",
-      items: [
-        { zh: "雞肉漢堡", en: "Chicken Burger", price: "NT$95", desc: "雞肉、生菜、蛋、番茄與美乃滋" },
-        { zh: "豬肉漢堡", en: "Pork Burger", price: "NT$95", desc: "經典早餐漢堡組合" },
-        { zh: "雞肉三明治", en: "Chicken Sandwich", price: "NT$80", desc: "白吐司、雞肉與蛋" },
-        { zh: "蜂蜜法式吐司", en: "French Toast", price: "NT$50", desc: "香甜早餐選擇" },
-        { zh: "玉米蛋餅", en: "Corn Egg Pancake", price: "NT$50", desc: "台式經典蛋餅" },
-        { zh: "早餐套餐", en: "Set Combo", price: "NT$150", desc: "含飲品完整組合" },
-      ],
-    },
-    {
-      titleZh: "全日餐點",
-      titleEn: "All-Day Menu",
-      time: "10:30 – 22:00 (餐點最後供應至20:00，飲品供應至22:00)",
-      href: "/menu#lunch",
-      items: [
-        { zh: "肉醬義大利麵", en: "Bolognese", price: "NT$135", desc: "經典紅醬風味" },
-        { zh: "青醬蘑菇義大利麵", en: "Pesto Mushroom", price: "NT$130", desc: "香氣濃郁青醬" },
-        { zh: "鮪魚火腿可頌", en: "Tuna Croissant", price: "NT$85", desc: "酥脆可頌搭配餡料" },
-        { zh: "蘑菇可頌", en: "Mushroom Croissant", price: "NT$75", desc: "清爽輕食選擇" },
-        { zh: "起司蛋餅", en: "Cheese Pancake", price: "NT$50", desc: "濃郁起司" },
-        { zh: "黑芝麻牛奶", en: "Sesame Milk", price: "NT$55", desc: "冰熱皆可" },
-      ],
-    },
-    
-    
-  ];
+  {
+    titleZh: "早餐",
+    titleEn: "Breakfast",
+    time: "07:00 – 10:00（供餐至 09:30）",
+    href: "/menu#breakfast",
+    items: [
+      { zh: "厚吐司套餐", en: "Toast Set", price: "NT$100", desc: "11:00 前點飲品即贈厚吐司套餐" },
+      { zh: "Nutella 好酥", en: "Nutella Delight", price: "NT$50", desc: "香甜酥脆的熱壓吐司" },
+      { zh: "花生 Nutella 好酥", en: "Peanut Butter & Nutella Delight", price: "NT$60", desc: "花生醬與 Nutella 的濃郁組合" },
+      { zh: "火腿蛋沙拉", en: "Ham & Egg Salad", price: "NT$65", desc: "鹹香火腿搭配蛋沙拉" },
+      { zh: "鮪魚蛋沙拉", en: "Tuna & Egg Salad", price: "NT$65", desc: "鮪魚與蛋沙拉的經典口味" },
+      { zh: "夏威夷", en: "Hawaiian Ham & Pineapple", price: "NT$65", desc: "火腿與鳳梨的清爽風味" },
+    ],
+  },
+  {
+    titleZh: "全日餐點",
+    titleEn: "All-Day Menu",
+    time: "10:00 – 22:00（餐點供應至 20:00，飲品供應至 22:00）",
+    href: "/menu#lunch",
+    items: [
+      { zh: "經典大安早餐盤", en: "Classic Daan Breakfast Plate", price: "NT$340", desc: "豐盛早午餐盤" },
+      { zh: "法式嫩煎雞腿早午餐", en: "Pan-Seared Chicken Thigh Brunch", price: "NT$390", desc: "嫩煎雞腿搭配早午餐配菜" },
+      { zh: "羅勒雞腿茄汁義大利麵", en: "Basil Chicken Thigh Tomato Pasta", price: "NT$350", desc: "香氣濃郁的羅勒茄汁風味" },
+      { zh: "鮭魚青醬義大利麵", en: "Salmon Pesto Pasta", price: "NT$380", desc: "鮭魚搭配青醬義大利麵" },
+      { zh: "味噌鮭魚飯", en: "Miso Salmon Rice Set", price: "NT$380", desc: "附配菜與湯品，依季節食材調整" },
+      { zh: "照燒雞腿飯", en: "Teriyaki Chicken Thigh Rice Set", price: "NT$350", desc: "經典照燒風味定食" },
+    ],
+  },
+];
 
   return (
     <section className="bg-[#FFFBF2] py-28 px-6 md:px-12 text-black">
